@@ -7,6 +7,8 @@ export function ChallengeBox() {
   const contextData = useContext(ChallengesContext);
 
   const hasActiveChallenge = true;
+  console.log(contextData);
+  
 
   return (
     <div className={styles.challengeBoxContainer}>
