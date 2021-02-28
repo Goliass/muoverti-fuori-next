@@ -9,6 +9,10 @@ import { Countdown } from '../components/Countdown';
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Início | Muoverti fuori</title>
+      </Head>
+
       <ExperienceBar />
 
       <section>
